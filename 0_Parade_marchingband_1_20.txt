@@ -1,7 +1,10 @@
 0_Parade_marchingband_1_20 <image file name>
 1 <number detected box/class/object>
-541 354 36 46 1.000 <bounding box size> <left> <top> <width> <height> <score: float>
+541 354 36 46 1.000 <bounding box size> <left> <top> <width> <height> <score>
 
-width, height = x_max - x_min, y_max - y_min
+
+#how to find width and height
+width, height = x2 - x1, y2 - y1
 width, height = right - left, bottom - top
+width, height = x_max - x_min, y_max - y_min
 
